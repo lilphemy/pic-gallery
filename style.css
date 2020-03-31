@@ -1,0 +1,96 @@
+body {
+
+background-image: URL('images/img1.png');
+height: 100%;
+width: 100%;
+text-align: center;
+color: RGB(70, 70, 60);
+background-size: cover;
+
+
+}
+
+
+IMG {
+
+height: 200px;
+width: 200px;
+border-radius: 5%;
+z-index:2;
+
+}
+
+
+.flex1-con {
+display: flex;
+flex-direction: column;
+justify-content: center; 
+
+
+}
+
+
+.flex2-con {
+display: flex;
+flex-direction: column;
+justify-content: center; 
+margin-top:10px;
+
+
+}
+
+
+
+h1 {
+background-color: rgba(12, 22, 45, 0.4);
+position: fixed;
+width: 100%;
+color: tomato;
+margin-top: 0px;
+
+}
+
+
+@media screen and (min-width: 600) {
+
+IMG {
+height: auto;
+width: auto;
+}
+
+body {
+background: auto;
+
+}
+
+flex1-con {
+
+flex-direction:row;
+justify-content: center;
+
+}
+
+flex2-con {
+
+flex-direction: row;
+justify-content: center;
+
+}
+
+
+}
+
+
+#deed {
+height: 20px;
+width: 20px;
+border-radius: 4%;
+
+
+}
+
+
+p {
+color: tomato;
+
+}
